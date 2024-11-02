@@ -1,4 +1,4 @@
-curl -X GET http://localhost:8080/api/notifications/telegram \
+curl -X GET http://localhost:8080/api/notifications/subscribe/telegram \
      -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA0NzI2NjIsImV4cF9yZWFkYWJsZSI6IjIwMjQtMTEtMDFUMTQ6NTE6MDJaIiwiaWF0IjoxNzMwNDI5NDYyLCJpYXRfcmVhZGFibGUiOiIyMDI0LTExLTAxVDAyOjUxOjAyWiIsInN1YiI6IjUzNDVlMjhlLTgzNTItNGEzMS1iZmYwLTNkMmY4MTIzMGEwYiIsInR5cCI6ImFjY2VzcyJ9.bUi9Jg46bdhM1L9_u2KBXCd3g_ikHdUYIZ8FwzDLQSA"
 
 POSTGRESQL_HOST=db.crm.evil-chan.ru \
